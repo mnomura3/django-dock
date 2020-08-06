@@ -1,6 +1,7 @@
 # django-dock
 # describe
 you can connect to mysql container from python3-alpine container.
+
 and if you want to connect to mysql container from Host then `mysql -u root or dbuser -p 3006`.
 
 # steps
@@ -10,6 +11,7 @@ and if you want to connect to mysql container from Host then `mysql -u root or d
 1. make project `django-admin startproject mysite`
 1. cd mysite
 1. update a part of database of settings.py
+
 `DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
