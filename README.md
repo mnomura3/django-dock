@@ -1,6 +1,6 @@
 # django-dock
 # describe
-you can connect to mysql container from python3-alpine container if you follow bellow steps.
+you can connect to mysql container from python3-alpine container.
 and if you want to connect to mysql container from Host then `mysql -u root or dbuser -p 3006`.
 
 # steps
